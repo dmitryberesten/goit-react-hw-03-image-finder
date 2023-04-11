@@ -1,6 +1,6 @@
-let API_KEY = '33717102-715c10c4f2cae8a60768f134f'; // Особистий ключ
-let BASE_URL = 'https://pixabay.com/api/';
-let PICS_ON_PAGE = 12;
+const API_KEY = '33717102-715c10c4f2cae8a60768f134f'; // Особистий ключ
+const BASE_URL = 'https://pixabay.com/api/';
+const PICS_ON_PAGE = 12;
 
 // Функція для отримання пошуку
 export const getSearch = (searchText, page) => {
